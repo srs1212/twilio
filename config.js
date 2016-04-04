@@ -6,5 +6,8 @@ cfg.twilio = {
 };
 
 cfg.myPhone = process.env.MY_PHONE;
+cfg.hostname = 'localhost';
+cfg.port = 3000;
+
 
 module.exports = cfg;
